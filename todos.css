@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(201, 235, 185);
+}
+.form-control {
+    display: block;
+    margin: 0px;
+    width: 100%;
+}
+.form{
+    margin: 0px 178px;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -325px;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: 130px;
+}
+
+
+.card{
+    margin: 0px 22px;
+}
